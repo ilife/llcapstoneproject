@@ -16,10 +16,6 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-<<<<<<< Updated upstream
-=======
-print(os.path.join(BASE_DIR, 'db.cnf'))
->>>>>>> Stashed changes
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -31,7 +27,6 @@ SECRET_KEY = 'django-insecure-)+f*6tbv!f2i1#u1wl$@ve5_4s_4%x4##^+s%ja&q6b+j4b&dk
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -63,7 +58,7 @@ ROOT_URLCONF = 'llcapstoneproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['llcapstoneproject/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,7 +73,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'llcapstoneproject.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
@@ -91,7 +85,6 @@ DATABASES = {
         },
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
