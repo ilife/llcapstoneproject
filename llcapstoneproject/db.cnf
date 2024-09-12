@@ -1,0 +1,7 @@
+[client]
+database = restaurant
+host = localhost
+user = root
+password = @root123@
+port = 3306
+default-character-set = utf8
